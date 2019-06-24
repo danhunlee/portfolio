@@ -3,13 +3,18 @@ body {
   font-family: Cutive Mono;
   font-size: 18px;
   height: 100%;
- 
+}
+
+.navbar {
+  background-color: rgb(148, 146, 146);
 }
 
 header {
     position: relative;
     top: 0;
     width: 100%;
+  
+
 }
 
 h1 {
@@ -89,5 +94,23 @@ svg {
   }
 }
 
+.card-img-top {
+  height: 250px;
+}
 
-
+.contactImg {
+  opacity: 0.8;
+}
+.row1 {
+  position: absolute;
+  width: 40%;
+  top: 75%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+ #button {
+   left: 640px;
+   top: 150px;
+   background-color: black;
+   color: white;
+ }
