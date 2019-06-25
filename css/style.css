@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(148, 146, 146);
+  background-color: white;
 }
 
 header {
@@ -14,12 +14,15 @@ header {
     top: 0;
     width: 100%;
   
-
 }
+
 
 h1 {
   text-align: center;
   font-size: 32px;
+}
+.card-title {
+  color: black;
 }
 
 p {
@@ -33,8 +36,7 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -109,8 +111,12 @@ svg {
   transform: translate(-50%, -50%);
 }
  #button {
+   font-size: 20px;
    left: 640px;
    top: 150px;
    background-color: black;
    color: white;
  }
+ #button:hover {
+   background-color: rgb(102, 102, 133)
+  }
