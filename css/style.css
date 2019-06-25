@@ -112,9 +112,10 @@ svg {
   transform: translate(-50%, -50%);
 }
  #button {
+   position: relative;
    font-size: 20px;
-   /* left: 640px;
-   top: 150px; */
+   left: 640px;
+   top: 150px;
    background-color: black;
    color: white;
  }
